@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="gallery.js"></script>
+</head>
+<body>
+    <div id="image">
+        Hover over an image below to display here.
+    </div>
+    
+    <img class="preview" alt="Baking" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/baking.jpg" onmouseover="upDate(this)" onmouseout="unDo()">
+    
+    <img class="preview" alt="Working" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/programming.jpg" onmouseover="upDate(this)" onmouseout="unDo()">
+    
+    <img class="preview" alt="Landscape" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/mountains.jpg" onmouseover="upDate(this)" onmouseout="unDo()">
+</body>
+</html>
